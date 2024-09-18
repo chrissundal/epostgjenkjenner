@@ -29,7 +29,7 @@ function getAnswer(text) {
         if (question.includes('.', `${result}`) && !question.includes(' ')) {
             showMessage = `<button onclick="sendMail()">Send epost</button>`;
         } else {
-            showMessage = 'Må ha punktum, og ingen mellomrom'
+            showMessage = 'Må ha punktum etter @, og ingen mellomrom'
         }
     } else {
         showMessage = 'er ikke @'
