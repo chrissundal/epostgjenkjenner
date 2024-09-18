@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    text-align: center;
+    line-height: 2;
+    background-color: aquamarine;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+    height: 300px;
+    width: 400px;
+}
+
+.detect {
+    margin-left: 10px;
+    height: 35px;
+}
+
+.question {
+    display: flex;
+    height: 40px;
+    width: 240px;
+    margin-top: 50px;
+
+}
+
+.grid {
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 50px;
+    margin-top: 10px;
+    font-size: large;
+}
